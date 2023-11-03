@@ -5,7 +5,7 @@ The code for the research presented in the paper titled "A deep learning method 
 @authors: Ehsan Adibnia, Majid Ghadrdan and Mohammad Ali Mansouri-Birjandi
 Corresponding author: mansouri@ece.usb.ac.ir
 
-This code is coresponding to the Inverse Deep Neural Network (DNN) section of the acticle.
+This code is corresponding to the Inverse Deep Neural Network (DNN) section of the article.
 Please cite the paper in any publication using this code.
 """
 import numpy as np 
