@@ -5,12 +5,9 @@ The code for the research presented in the paper titled "A deep learning method 
 @authors: Ehsan Adibnia, Majid Ghadrdan and Mohammad Ali Mansouri-Birjandi
 Corresponding author: mansouri@ece.usb.ac.ir
 
-This code is coresponding to the Inverse Deep Neural Network (DNN) section of the acticle
-.
+This code is coresponding to the Inverse Deep Neural Network (DNN) section of the acticle.
 Please cite the paper in any publication using this code.
-
 """
-
 import numpy as np 
 import matplotlib.pyplot as plt 
 import pandas as pd 
@@ -23,11 +20,11 @@ from sklearn.preprocessing import StandardScaler
 from keras.optimizers import Adadelta
 
 ### Load the data from CSV file (the results of FDTD solver)
-result = pd.read_csv("E:/Education/Electronic/01-PHD/Ehsan data/circle T-shape/result_H.csv", header=None)
+result = pd.read_csv("result_H.csv", header=None)
 result = result.to_numpy()
 result=result.astype(np.float16)
 
-x = result[0:result.shape[0],0:1600]
+x = abs(result[0:result.shape[0],0:1600])
 y = result[0:result.shape[0],1600:1606]
 
 # Allocation of 70% of the total data to the training data
@@ -72,9 +69,8 @@ Model.compile(loss='mean_squared_logarithmic_error',
 history = Model.fit(x_train, y_train, epochs=5000,
           batch_size = 80, validation_data=(x_val, y_val))
 
-
 ### plot the loss graph
-plt.plot(history.history['val_loss'], linewidth=1, linestyle='--')
+plt.plot(history.history['val_loss'], linewidth=1)
 plt.plot(history.history['loss'], linewidth=2, linestyle='--')
 plt.title('The loss of training model', fontname='Times New Roman', fontsize=18, loc='center')
 plt.xlabel('epochs', fontname='Times New Roman', fontsize=18)
@@ -98,8 +94,7 @@ with open('E:/Education/Electronic/01-PHD/python Code/loss.csv', 'w', newline=''
 
 # save the inverse model and its weights
 model_json = Model.to_json()
-json_file = open("E:/Education/Electronic/01-PHD/python Code/T-shaped switch_Nozhat/T-shaped switchat_model_inverse3.json", "w")
+json_file = open("T-shaped switchat_model_inverse.json", "w")
 json_file.write(model_json)   
-Model.save_weights("E:/Education/Electronic/01-PHD/python Code/T-shaped switch_Nozhat/T-shaped switch_Nozhat_model_weights_inverse3.h5")
+Model.save_weights("T-shaped switch_Nozhat_model_weights_inverse.h5")
 json_file.close()
-
