@@ -44,6 +44,7 @@ Figure S3b: To obtain Figure S3b, you can keep the number of neurons fixed at 60
 
 #### Figure S6
 To plot Figure S6, you would need to vary the number of layers each time and after training the network, use it to predict the transmission spectrum of a structure with specific geometric parameters that the network has not seen before. In this paper, for Figure S6, we considered g1=g2=g3=45nm and g4=g5=20nm, and compared the predicted spectrum with the spectrum obtained from the Finite-Difference Time-Domain (FDTD) method.
+
 For the convenience of reproducing the plot, we have saved the obtained data. Therefore, to obtain Figure S6, you can utilize the data from file "CircularRR_AOPS_S2_Fig_S06.py". The necessary data for executing this file is stored in file "CircularRR_AOPS_S2_Fig_S06.csv", which has been loaded here.
 
 ### Inverse model
