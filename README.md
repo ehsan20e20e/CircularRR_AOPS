@@ -17,16 +17,24 @@ In this case, the raw data generated for the proposed plasmonic switch structure
 "To train the forward model, you can utilize the Python code provided in the 'CircularRR_AOPS_Forward_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the 'result_V.csv' file. To execute the 'CircularRR_AOPS_Forward_model.py' file, you will require the 'result_H.csv' file, which constitutes big data with a size of 5.8 gigabytes".
 
 The 'result_V.csv' file (7 parts) can be accessed through the following link: https://drive.google.com/drive/folders/12n9jV9eL3ReEAF2YD4dCLRF0pCa51JTy?usp=drive_link.
+
 First part link: https://drive.google.com/file/d/1AcqJO9Qy34U64vmeluImQcEhMb7MNPGP/view?usp=drive_link.
+
 second part link: https://drive.google.com/file/d/1IyZfRIT8rBBdbkuAULWjWX0sWpynGatL/view?usp=drive_link.
+
 3th part link: https://drive.google.com/file/d/12sdaScipwbH1qMnLSl0erEOm6hB9HGLd/view?usp=drive_link.
+
 4th part link: https://drive.google.com/file/d/1R9HOWI5C4JGDUw0pwZd9wpX3vV0L-06k/view?usp=drive_link.
+
 5th part link: https://drive.google.com/file/d/1g7PXAXhSXLVsp41bHdyKxCvUy8YYXESo/view?usp=drive_link.
+
 6th part link: https://drive.google.com/file/d/1L28Gezy-3qQvxwKAJYG5UH6XhgPf76eH/view?usp=drive_link.
+
 7th oart link: https://drive.google.com/file/d/1kWqZg9hmLQG77qri3zCgIPGm32_gE_vK/view?usp=drive_link.
 
 ### Inverse model
 "To train the inverse model, you can utilize the Python code provided in the 'CircularRR_AOPS_Inverse_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the 'result_H.csv' file, which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
+
 To execute the 'CircularRR_AOPS_Inverse_model.py' file, you will require the 'result_H.csv' file, which constitutes big data with a size of 1.8 gigabytes".
 
 #### Figure 6
