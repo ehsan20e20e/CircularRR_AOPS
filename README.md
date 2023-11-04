@@ -32,12 +32,15 @@ second part link: https://drive.google.com/file/d/1IyZfRIT8rBBdbkuAULWjWX0sWpynG
 
 7th oart link: https://drive.google.com/file/d/1kWqZg9hmLQG77qri3zCgIPGm32_gE_vK/view?usp=drive_link.
 
-#### Figure 2
-Figure 2a: The loss values after the completion of the training process will generate Figure 2a.
+#### Figure 3
+Figure 3a: The loss values after the completion of the training process will generate Figure 3a.
 
-Figure 2b and 2c: To obtain Figures 2b and 2c, you can instruct the trained model to predict the output spectra for unseen geometric parameters at wavelengths ranging from 1000 to 1800 nm. In other words, you need to predict the transmission spectra for 800 different wavelengths to form the complete transmission spectrum. Then, compare this predicted spectrum with the spectrum obtained using the FDTD method. For the closest data, you would need to search for the closest data points to the selected geometric parameters in file "result_V.csv". 
+Figure 3b and 3c: To obtain Figures 3b and 3c, you can instruct the trained model to predict the output spectra for unseen geometric parameters at wavelengths ranging from 1000 to 1800 nm. In other words, you need to predict the transmission spectra for 800 different wavelengths to form the complete transmission spectrum. Then, compare this predicted spectrum with the spectrum obtained using the FDTD method. For the closest data, you would need to search for the closest data points to the selected geometric parameters in file "result_V.csv". 
 
+#### Figure S3
+Figure S3a: To plot a three-dimensional bar chart of The computational cost, you would need to vary the number of layers and the number of neurons each time and record the training time.
 
+Figure S3b: To obtain Figure S3b, you can keep the number of neurons fixed at 60 and the number of layers fixed at 6 and then you would need to vary the number of epochs.
 
 ### Inverse model
 To train the inverse model, you can utilize the Python code provided in the 'CircularRR_AOPS_Inverse_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_H.csv" file, which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
