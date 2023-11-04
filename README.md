@@ -42,6 +42,10 @@ Figure S3a: To plot a three-dimensional bar chart of The computational cost, you
 
 Figure S3b: To obtain Figure S3b, you can keep the number of neurons fixed at 60 and the number of layers fixed at 6 and then you would need to vary the number of epochs.
 
+#### Figure S6
+To plot Figure S6, you would need to vary the number of layers each time and after training the network, use it to predict the transmission spectrum of a structure with specific geometric parameters that the network has not seen before. In this paper, for Figure S6, we considered g1=g2=g3=45nm and g4=g5=20nm, and compared the predicted spectrum with the spectrum obtained from the Finite-Difference Time-Domain (FDTD) method.
+For the convenience of reproducing the plot, we have saved the obtained data. Therefore, to obtain Figure S6, you can utilize the data from file "CircularRR_AOPS_S2_Fig_S06.py". The necessary data for executing this file is stored in file "CircularRR_AOPS_S2_Fig_S06.csv", which has been loaded here.
+
 ### Inverse model
 To train the inverse model, you can utilize the Python code provided in the 'CircularRR_AOPS_Inverse_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_H.csv" file, which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
 
