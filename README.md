@@ -43,7 +43,7 @@ Figure S3a: To plot a three-dimensional bar chart of The computational cost, you
 Figure S3b: To obtain Figure S3b, you can keep the number of neurons fixed at 60 and the number of layers fixed at 6 and then you would need to vary the number of epochs. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3b, you can utilize the file "CircularRR_AOPS_S3_Fig_S03b.m".
 
 #### Figure S5
-To plot Figure S6, you would need to vary the number of layers and the number of neurons each time and record the loss value. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S5, you can utilize the file "CircularRR_AOPS_S4_Fig_S05.py". The required data for running this file is stored in the file "CircularRR_AOPS_S4_Fig_S05.csv", which has been loaded here.
+To plot Figure S5, you would need to vary the number of layers and the number of neurons each time and record the loss value. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S5, you can utilize the file "CircularRR_AOPS_S4_Fig_S05.py". The required data for running this file is stored in the file "CircularRR_AOPS_S4_Fig_S05.csv", which has been loaded here.
 
 #### Figure S6
 To plot Figure S6, you would need to vary the number of layers each time and after training the network, use it to predict the transmission spectrum of a structure with specific geometric parameters that the network has not seen before. In this paper, for Figure S6, we considered g1=g2=g3=45nm and g4=g5=20nm, and compared the predicted spectrum with the spectrum obtained from the Finite-Difference Time-Domain (FDTD) method.
