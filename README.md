@@ -37,6 +37,8 @@ Figure 3a: The loss values after the completion of the training process will gen
 
 Figure 3b and 3c: To obtain Figures 3b and 3c, you can instruct the trained model to predict the output spectra for unseen geometric parameters at wavelengths ranging from 1000 to 1800 nm. In other words, you need to predict the transmission spectra for 800 different wavelengths to form the complete transmission spectrum. Then, compare this predicted spectrum with the spectrum obtained using the FDTD method. For the closest data, you would need to search for the closest data points to the selected geometric parameters in file "result_V.csv". 
 
+For the purpose of easily reproducing the Figure 3b,c, we have stored the acquired data. Therefore, to test or use forward model, you can utilize the file "CircularRR_AOPS_Fig_03bc.py". The required data for running this file is stored in the file "CircularRR_AOPS_Fig_03bc_Lower_sample.csv", "CircularRR_AOPS_Fig_03bc_Higher_sample.csv", "CircularRR_AOPS_Fig_03bc_FDTD_origin.csv", "CircularRR_AOPS_forward_model.json" and "CircularRR_AOPS_forward_model_weights.h5" which have been loaded here.
+
 
 ### Inverse model
 To train the inverse model, you can utilize the Python code provided in the 'CircularRR_AOPS_Inverse_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_H.csv" file, which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
