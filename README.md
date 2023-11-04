@@ -53,6 +53,9 @@ For the purpose of easily reproducing the legend of Figure 6, we have stored the
 #### Figure S1
 to generate Figure S1, you can utilize the file "CircularRR_AOPS_S1_Fig_S01.m". The required data for running this file is stored in the file "Johnsonsilver.mat", which has been loaded here.
 
+#### Figure S2
+to generate Figure S2, you can utilize the file "CircularRR_AOPS_S2_Fig_S02.py". The required data for running this file is stored in the file "result_V.csv", which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
+
 #### Figure S3
 Figure S3a: To plot a three-dimensional bar chart of The computational cost, you would need to vary the number of layers and the number of neurons each time and record the training time. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3a, you can utilize the file "CircularRR_AOPS_S3_Fig_S03a.m".
 
