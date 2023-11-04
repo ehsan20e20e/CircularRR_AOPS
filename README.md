@@ -37,18 +37,6 @@ Figure 3a: The loss values after the completion of the training process will gen
 
 Figure 3b and 3c: To obtain Figures 3b and 3c, you can instruct the trained model to predict the output spectra for unseen geometric parameters at wavelengths ranging from 1000 to 1800 nm. In other words, you need to predict the transmission spectra for 800 different wavelengths to form the complete transmission spectrum. Then, compare this predicted spectrum with the spectrum obtained using the FDTD method. For the closest data, you would need to search for the closest data points to the selected geometric parameters in file "result_V.csv". 
 
-#### Figure S3
-Figure S3a: To plot a three-dimensional bar chart of The computational cost, you would need to vary the number of layers and the number of neurons each time and record the training time. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3a, you can utilize the file "CircularRR_AOPS_S3_Fig_S03a.m".
-
-Figure S3b: To obtain Figure S3b, you can keep the number of neurons fixed at 60 and the number of layers fixed at 6 and then you would need to vary the number of epochs. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3b, you can utilize the file "CircularRR_AOPS_S3_Fig_S03b.m".
-
-#### Figure S5
-To plot Figure S5, you would need to vary the number of layers and the number of neurons each time and record the loss value. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S5, you can utilize the file "CircularRR_AOPS_S4_Fig_S05.py". The required data for running this file is stored in the file "CircularRR_AOPS_S4_Fig_S05.csv", which has been loaded here.
-
-#### Figure S6
-To plot Figure S6, you would need to vary the number of layers each time and after training the network, use it to predict the transmission spectrum of a structure with specific geometric parameters that the network has not seen before. In this paper, for Figure S6, we considered g1=g2=g3=45nm and g4=g5=20nm, and compared the predicted spectrum with the spectrum obtained from the Finite-Difference Time-Domain (FDTD) method.
-
-For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S6, you can utilize the file "CircularRR_AOPS_S2_Fig_S06.py". The required data for running this file is stored in the file "CircularRR_AOPS_S2_Fig_S06.csv", which has been loaded here.
 
 ### Inverse model
 To train the inverse model, you can utilize the Python code provided in the 'CircularRR_AOPS_Inverse_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_H.csv" file, which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
@@ -61,6 +49,22 @@ To test invese model and to generate Figure 6b and c, it is necessary to juxtapo
 
 For the purpose of easily reproducing the legend of Figure 6, we have stored the acquired data. Therefore, to test or use inverse model, you can utilize the file "CircularRR_AOPS_Figure06.py". The required data for running this file is stored in the file "CircularRR_AOPS_Figure06_furthest_data.csv", "CircularRR_AOPS_inverse_model.json" and "CircularRR_AOPS_inverse_model_weights.h5" which have been loaded here.
 
+### Supplementary Information 
+#### Figure S1
+to generate Figure S1, you can utilize the file "CircularRR_AOPS_S1_Fig_S01.m". The required data for running this file is stored in the file "Johnsonsilver.mat", which has been loaded here.
+
+#### Figure S3
+Figure S3a: To plot a three-dimensional bar chart of The computational cost, you would need to vary the number of layers and the number of neurons each time and record the training time. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3a, you can utilize the file "CircularRR_AOPS_S3_Fig_S03a.m".
+
+Figure S3b: To obtain Figure S3b, you can keep the number of neurons fixed at 60 and the number of layers fixed at 6 and then you would need to vary the number of epochs. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3b, you can utilize the file "CircularRR_AOPS_S3_Fig_S03b.m".
+
+#### Figure S5
+To plot Figure S5, you would need to vary the number of layers and the number of neurons each time and record the loss value. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S5, you can utilize the file "CircularRR_AOPS_S4_Fig_S05.py". The required data for running this file is stored in the file "CircularRR_AOPS_S4_Fig_S05.csv", which has been loaded here.
+
+#### Figure S6
+To plot Figure S6, you would need to vary the number of layers each time and after training the network, use it to predict the transmission spectrum of a structure with specific geometric parameters that the network has not seen before. In this paper, for Figure S6, we considered g1=g2=g3=45nm and g4=g5=20nm, and compared the predicted spectrum with the spectrum obtained from the Finite-Difference Time-Domain (FDTD) method.
+
+For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S6, you can utilize the file "CircularRR_AOPS_S2_Fig_S06.py". The required data for running this file is stored in the file "CircularRR_AOPS_S2_Fig_S06.csv", which has been loaded here.
 
 
 
