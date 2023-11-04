@@ -36,6 +36,7 @@ x_test, x_val, y_test, y_val = train_test_split(x_val, y_val, test_size=0.50, sh
 sc = StandardScaler()
 x_train = sc.fit_transform(x_train)
 x_val = sc.transform(x_val)
+x_test = sc.transform(x_test)
 
 ### Defining the Layers of the deep neural network (DNN)
 # 6 hidden layer and 60 neurons in each layer
@@ -83,6 +84,11 @@ plt.show()
 ### loss value of train and validation data
 train_loss = history.history['loss']
 val_loss = history.history['val_loss']
+
+### Testing Model 
+predictions = Model.predict(x_test)
+Loss = Model.evaluate(x_test, y_test)
+print(Loss)
 
 # save the loss values in csv file
 fieldnames = ['Epoch', 'Training Loss', 'Validation Loss']
