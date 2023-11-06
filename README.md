@@ -1,4 +1,3 @@
-![CircularRR_AOPS4](https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/b8a41b45-1f2b-4ac6-8f44-189ee8316313)
 # CircularRR_AOPS
 ![c](https://giphy.com/embed/NCqzJc04laoL2BDWw1)
 
