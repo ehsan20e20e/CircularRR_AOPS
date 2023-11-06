@@ -10,7 +10,12 @@ https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/08783c23-bcb5-47
   * * *[Figure 3](#Figure_3)
 * * [Inverse model](#Inverse_model)
   * * *[Figure 6](#Figure_6) 
-
+* * [Supplementary Information](#Supplementary_Information)
+  * * *[Figure S1](#Figure_S1)
+  * * *[Figure S2](#Figure_S2)
+  * * *[Figure S3](#Figure_S3)
+  * * *[Figure S5](#Figure_S5)
+  * * *[Figure S6](#Figure_S6) 
 ## Describtion
 The provided repository showcases the application of deep learning techniques in predicting the spectral response of all-optical plasmonic switches. It is built upon the research presented in the paper titled "A deep learning method for empirical spectral prediction and inverse design of all-optical nonlinear plasmonic ring resonator switches".
 This repository is specifically tailored for addressing inverse design challenges, with a specific focus on the fields of photonics and optics.
@@ -67,22 +72,22 @@ step 1 (geometric parameter): For the purpose of easily reproducing the legend o
 
 step 2 (transmission spectra): For the purpose of easily reproducing the Figure 6b and c, we have stored the acquired data. Therefore, to regenerate the Figure 6b and c, you can utilize the file "CircularRR_AOPS_Fig_06bc.py". The required data for running this file is stored in the file "CircularRR_AOPS_Fig_06bc_furthest_predicted.csv" which have been loaded here.
 
-### Supplementary Information 
-#### Figure S1
+### Supplementary_Information 
+#### Figure_S1
 to generate Figure S1, you can utilize the file "CircularRR_AOPS_S1_Fig_S01.m". The required data for running this file is stored in the file "Johnsonsilver.mat", which has been loaded here.
 
-#### Figure S2
+#### Figure_S2
 to generate Figure S2, you can utilize the file "CircularRR_AOPS_S2_Fig_S02.py". The required data for running this file is stored in the file "result_V.csv", which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
 
-#### Figure S3
+#### Figure_S3
 Figure S3a: To plot a three-dimensional bar chart of The computational cost, you would need to vary the number of layers and the number of neurons each time and record the training time. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3a, you can utilize the file "CircularRR_AOPS_S3_Fig_S03a.m".
 
 Figure S3b: To obtain Figure S3b, you can keep the number of neurons fixed at 60 and the number of layers fixed at 6 and then you would need to vary the number of epochs. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S3b, you can utilize the file "CircularRR_AOPS_S3_Fig_S03b.m".
 
-#### Figure S5
+#### Figure_S5
 To plot Figure S5, you would need to vary the number of layers and the number of neurons each time and record the loss value. For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S5, you can utilize the file "CircularRR_AOPS_S4_Fig_S05.py". The required data for running this file is stored in the file "CircularRR_AOPS_S4_Fig_S05.csv", which has been loaded here.
 
-#### Figure S6
+#### Figure_S6
 To plot Figure S6, you would need to vary the number of layers each time and after training the network, use it to predict the transmission spectrum of a structure with specific geometric parameters that the network has not seen before. In this paper, for Figure S6, we considered g1=g2=g3=45nm and g4=g5=20nm, and compared the predicted spectrum with the spectrum obtained from the Finite-Difference Time-Domain (FDTD) method.
 
 For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S6, you can utilize the file "CircularRR_AOPS_S2_Fig_S06.py". The required data for running this file is stored in the file "CircularRR_AOPS_S2_Fig_S06.csv", which has been loaded here.
