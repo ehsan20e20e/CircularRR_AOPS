@@ -6,7 +6,7 @@ https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/08783c23-bcb5-47
 * [Instructions](#Instructions)
 * [Prerequisites](#Prerequisites)
 * [Geting started](#Geting_started)
-* [Forward model](#Forward model)
+* [Forward model](##Forward_model)
 
 ## Describtion
 The provided repository showcases the application of deep learning techniques in predicting the spectral response of all-optical plasmonic switches. It is built upon the research presented in the paper titled "A deep learning method for empirical spectral prediction and inverse design of all-optical nonlinear plasmonic ring resonator switches".
@@ -22,7 +22,7 @@ In order to make use of this repository, it is essential to generate the require
 In this case, the raw data generated for the proposed plasmonic switch structure is available in the form of CSV files. These files have been provided to aid in the regeneration of the graphs and results that are presented in this article.
 
 ===> Please note that the data related to Drop port has been mistakenly entered as negative. Therefore, in the written code, we have taken the absolute value of the input data
-### Forward model
+### Forward_model
 To train the forward model, you can utilize the Python code provided in the 'CircularRR_AOPS_Forward_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_V.csv" file. To execute the 'CircularRR_AOPS_Forward_model.py' file, you will require the 'result_H.csv' file, which constitutes big data with a size of 5.8 gigabytes.
 
 The 'result_V.csv' file (7 parts) can be accessed through the following link: https://drive.google.com/drive/folders/12n9jV9eL3ReEAF2YD4dCLRF0pCa51JTy?usp=drive_link.
