@@ -1,4 +1,12 @@
 # CircularRR_AOPS
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/08783c23-bcb5-47c6-b111-3bd0a961adbe
 
 
