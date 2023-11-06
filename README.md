@@ -5,7 +5,7 @@ https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/08783c23-bcb5-47
 * [Describtion](#Describtion)
 * [Instructions](#Instructions)
 * [Prerequisites](#Prerequisites)
-* [Geting_started](#Geting_started)
+* [Geting_started](#Geting started)
 * [Forward model](#Forward model)
 
 ## Describtion
