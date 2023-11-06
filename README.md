@@ -6,7 +6,8 @@ https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/08783c23-bcb5-47
 * [Instructions](#Instructions)
 * [Prerequisites](#Prerequisites)
 * [Geting started](#Geting_started)
-** [Forward model](#Forward_model)
+* * [Forward model](#Forward_model)
+ 
 
 ## Describtion
 The provided repository showcases the application of deep learning techniques in predicting the spectral response of all-optical plasmonic switches. It is built upon the research presented in the paper titled "A deep learning method for empirical spectral prediction and inverse design of all-optical nonlinear plasmonic ring resonator switches".
@@ -41,7 +42,7 @@ second part link: https://drive.google.com/file/d/1IyZfRIT8rBBdbkuAULWjWX0sWpynG
 
 7th oart link: https://drive.google.com/file/d/1kWqZg9hmLQG77qri3zCgIPGm32_gE_vK/view?usp=drive_link.
 
-#### Figure 3
+#### Figure_3
 Figure 3a: The loss values after the completion of the training process will generate Figure 3a.
 
 Figure 3b and 3c: To obtain Figures 3b and 3c, you can instruct the trained model to predict the output spectra for unseen geometric parameters at wavelengths ranging from 1000 to 1800 nm. In other words, you need to predict the transmission spectra for 800 different wavelengths to form the complete transmission spectrum. Then, compare this predicted spectrum with the spectrum obtained using the FDTD method. For the closest data, you would need to search for the closest data points to the selected geometric parameters in file "result_V.csv". 
