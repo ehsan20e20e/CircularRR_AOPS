@@ -1,5 +1,5 @@
 # CircularRR_AOPS
-![CircularRR_AOPS4](https://github.com/ehsan20e20e/CircularRR_AOPS/assets/CircularRR_AOPS.gif)
+![CircularRR_AOPS4](https://github.com/ehsan20e20e/CircularRR_AOPS/blob/main/CircularRR_AOPS.gif)
 
 ![repository-open-graph-template](https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/03c0d19f-927d-41ad-a21b-3ae26e453a26)
 
