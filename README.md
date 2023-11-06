@@ -1,6 +1,6 @@
 ![CircularRR_AOPS4](https://github.com/ehsan20e20e/CircularRR_AOPS/assets/106914575/b8a41b45-1f2b-4ac6-8f44-189ee8316313)
 # CircularRR_AOPS
-![c](https://giphy.com/gifs/NCqzJc04laoL2BDWw1?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=)
+![c](https://giphy.com/embed/NCqzJc04laoL2BDWw1)
 
 ## Describtion
 The provided repository showcases the application of deep learning techniques in predicting the spectral response of all-optical plasmonic switches. It is built upon the research presented in the paper titled "A deep learning method for empirical spectral prediction and inverse design of all-optical nonlinear plasmonic ring resonator switches".
