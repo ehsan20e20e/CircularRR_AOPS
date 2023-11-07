@@ -23,7 +23,9 @@ This repository is specifically tailored for addressing inverse design challenge
 These instructions will guide you to set up and run a copy of the project on your local machine for development and testing purposes.
 ## Prerequisites
 To execute the MATLAB and Python code, you will need to have MATLAB installed on your system. Specifically, we utilized MATLAB version R2023a, Python version 3.7.13, and Spyder version 5.1.5 within Anaconda version 4.14.0 for this code. Please note that while the project can be completed without these programs, the ability to compare speed and generate data will be limited unless MATLAB and Python are installed.
-The required datasets for executing these codes can be accessed through the following link: https://drive.google.com/drive/folders/12n9jV9eL3ReEAF2YD4dCLRF0pCa51JTy?usp=drive_link.
+The required datasets for executing these codes can be accessed through the following links:
+https://github.com/ehsan20e20e/CircularRR_AOPS/releases
+https://drive.google.com/drive/folders/12n9jV9eL3ReEAF2YD4dCLRF0pCa51JTy?usp=drive_link
 ## Geting_started
 In order to make use of this repository, it is essential to generate the required data for the all-optical switch structure using different FDTD (Finite-Difference Time-Domain) solvers, such as Lumerical, RSoft, or MATLAB. These solvers facilitate the generation and simulation of the optical switch structure, enabling the analysis of its performance and characteristics.
 
@@ -33,21 +35,23 @@ In this case, the raw data generated for the proposed plasmonic switch structure
 ### Forward_model
 To train the forward model, you can utilize the Python code provided in the 'CircularRR_AOPS_Forward_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_V.csv" file. To execute the 'CircularRR_AOPS_Forward_model.py' file, you will require the 'result_H.csv' file, which constitutes big data with a size of 5.8 gigabytes.
 
-The 'result_V.csv' file (7 parts) can be accessed through the following link: https://drive.google.com/drive/folders/12n9jV9eL3ReEAF2YD4dCLRF0pCa51JTy?usp=drive_link.
+The 'result_V.csv' file can be accessed as a single file through the following link: https://github.com/ehsan20e20e/CircularRR_AOPS/releases/download/untagged-80fe3b94e704169ada0a/result_V.rar
 
-First part link: https://drive.google.com/file/d/1AcqJO9Qy34U64vmeluImQcEhMb7MNPGP/view?usp=drive_link.
+The 'result_V.csv' file (7 parts) can be accessed through the following link: https://drive.google.com/drive/folders/12n9jV9eL3ReEAF2YD4dCLRF0pCa51JTy?usp=drive_link
 
-second part link: https://drive.google.com/file/d/1IyZfRIT8rBBdbkuAULWjWX0sWpynGatL/view?usp=drive_link.
+First part link: https://drive.google.com/file/d/1AcqJO9Qy34U64vmeluImQcEhMb7MNPGP/view?usp=drive_link
 
-3th part link: https://drive.google.com/file/d/12sdaScipwbH1qMnLSl0erEOm6hB9HGLd/view?usp=drive_link.
+second part link: https://drive.google.com/file/d/1IyZfRIT8rBBdbkuAULWjWX0sWpynGatL/view?usp=drive_link
 
-4th part link: https://drive.google.com/file/d/1R9HOWI5C4JGDUw0pwZd9wpX3vV0L-06k/view?usp=drive_link.
+3th part link: https://drive.google.com/file/d/12sdaScipwbH1qMnLSl0erEOm6hB9HGLd/view?usp=drive_link
 
-5th part link: https://drive.google.com/file/d/1g7PXAXhSXLVsp41bHdyKxCvUy8YYXESo/view?usp=drive_link.
+4th part link: https://drive.google.com/file/d/1R9HOWI5C4JGDUw0pwZd9wpX3vV0L-06k/view?usp=drive_link
 
-6th part link: https://drive.google.com/file/d/1L28Gezy-3qQvxwKAJYG5UH6XhgPf76eH/view?usp=drive_link.
+5th part link: https://drive.google.com/file/d/1g7PXAXhSXLVsp41bHdyKxCvUy8YYXESo/view?usp=drive_link
 
-7th oart link: https://drive.google.com/file/d/1kWqZg9hmLQG77qri3zCgIPGm32_gE_vK/view?usp=drive_link.
+6th part link: https://drive.google.com/file/d/1L28Gezy-3qQvxwKAJYG5UH6XhgPf76eH/view?usp=drive_link
+
+7th oart link: https://drive.google.com/file/d/1kWqZg9hmLQG77qri3zCgIPGm32_gE_vK/view?usp=drive_link
 
 #### Figure_3
 Figure 3a: The loss values after the completion of the training process will generate Figure 3a.
@@ -58,7 +62,10 @@ For the purpose of easily reproducing the Figure 3b,c, we have stored the acquir
 
 
 ### Inverse_model
-To train the inverse model, you can utilize the Python code provided in the 'CircularRR_AOPS_Inverse_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_H.csv" file, which has been uploaded in the following link: https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link.
+To train the inverse model, you can utilize the Python code provided in the 'CircularRR_AOPS_Inverse_model.py' file. We have saved the 147,456 unique examples generated through FDTD simulations in the "result_H.csv" file, which has been uploaded in the following links:
+
+https://github.com/ehsan20e20e/CircularRR_AOPS/releases/download/untagged-80fe3b94e704169ada0a/result_H.rar
+https://drive.google.com/file/d/1XW8CZP60sRJwzeInc0dSmcq_Q4VMNfoE/view?usp=drive_link
 
 To execute the 'CircularRR_AOPS_Inverse_model.py' file, you will require the 'result_H.csv' file, which constitutes big data with a size of 1.8 gigabytes.
 
