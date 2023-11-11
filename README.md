@@ -102,5 +102,10 @@ To plot Figure S6, you would need to vary the number of layers each time and aft
 
 For the purpose of easily reproducing the plot, we have stored the acquired data. Therefore, to generate Figure S6, you can utilize the file "CircularRR_AOPS_S2_Fig_S06.py". The required data for running this file is stored in the file "CircularRR_AOPS_S2_Fig_S06.csv", which has been loaded here.
 
+#### Figure_S7
+To achieve a sharper dip in the through port transmission spectrum, it is advisable to save the spectra extracted from the forward model into a matrix file compatible with MATLAB software, preferably namded as "dataset_T-shape3." Subsequently, the file "CircularRR_AOPS_S5_Fig_S07.m" can be utilized, allowing for the plotting of any desired spectra in the format of Figure S7.
 
+To achieve a sharper dip in the drop port transmission spectrum, the file "CircularRR_AOPS_S5_Fig_S07_drop.m" can be utilized.
 
+===> Please note that the first row of the data matrix is intended to contain NaN values.
+===> Please be aware that the initial column in the data matrix must have zero values. The second column should represent wavelength. Columns 3 to 6 are designated for G1 to G5, respectively. Columns 8 and 9 are allocated for T1 and T2, respectively.
